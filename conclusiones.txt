@@ -1,0 +1,17 @@
+Hallazgos:
+
+Al revisar el reporte no se visualizan completas las fotografías de los productos y se visualiza error al ver el carrito, aun así el flujo de compra finalizo como prueba satisfactoria.
+
+Se debería revisar el error presentado.
+
+ 
+
+Conclusiones:
+
+*Las pruebas pasaron al 100% demostrando que el flujo de compras fue satisfactorio hasta finalizar la compra con una duración de 11.562 segundos.
+
+*Con la automatización de las pruebas se evidenció una reducción significativa en los tiempos de ejecución, con esta implementación se debe de dar soporte y mantenibilidad a través del tiempo a las funcionalidades que componen el sistema.
+
+*Al automatizar las pruebas se puede dedicar mayor tiempo a pruebas mas criticas.
+
+*Se verifica que el software se encuentra desarrollado de acuerdo a los requerimientos del cliente.

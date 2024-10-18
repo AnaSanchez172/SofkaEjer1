@@ -1,0 +1,12 @@
+{
+  "datosUserLogin": {
+    "usuario": "standard_user",
+    "contrasena": "secret_sauce"
+  },
+  "datosCompra": {
+    "nombre": "Ana",
+    "apellido": "Sanchez",
+    "codigoPostal": "00000"
+  },
+  "mensajeEsperado": "Thank you for your order!"
+}
