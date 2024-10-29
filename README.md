@@ -1,7 +1,7 @@
 
 INSTRUCCIONES PASO A PASO DE EJECUCION
 
-1. Git clone
+1. Ejecutar Git clone del proyecto
 2. Verificar que se encuentre instalado la version de Google Chrome 114
 3. Ejecutar en terminal gradle clean test
 

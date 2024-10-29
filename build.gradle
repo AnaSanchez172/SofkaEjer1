@@ -1,20 +1,5 @@
 defaultTasks 'clean', 'test', 'aggregate'
 
-repositories {
-    mavenLocal()
-    jcenter()
-}
-
-buildscript {
-    repositories {
-        mavenLocal()
-        jcenter()
-    }
-    dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.2.0")
-    }
-}
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
@@ -22,6 +7,27 @@ apply plugin: 'net.serenity-bdd.aggregator'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+
+task installChrome114(type: Exec) {
+    commandLine 'powershell', '-ExecutionPolicy', 'Bypass', '-File', './install_chrome114.ps1'
+}
+
+test {
+    dependsOn installChrome114
+}
+
+repositories {
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.2.0")
+    }
+}
 
 ext {
     slf4jVersion = '1.7.7'

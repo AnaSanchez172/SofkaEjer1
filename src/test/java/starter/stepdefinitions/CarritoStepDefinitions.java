@@ -54,7 +54,7 @@ public class CarritoStepDefinitions {
         theActorInTheSpotlight().attemptsTo(action);
     }
 
-    @And("agregar al carrito")
+    @And("agregar productos al carrito")
     public void agregarAlCarrito() {
         Performable action = actionsPage.AgregarAlCarrito();
         theActorInTheSpotlight().attemptsTo(action);
@@ -78,7 +78,7 @@ public class CarritoStepDefinitions {
         theActorInTheSpotlight().attemptsTo(action);
     }
 
-    @Then("recibo el mensaje")
+    @Then("verifico el mensaje recibido")
     public void reciboElMensaje() {
         Performable action = actionsPage.ValidarCompra(mensajeEsperado);
         theActorInTheSpotlight().attemptsTo(action);

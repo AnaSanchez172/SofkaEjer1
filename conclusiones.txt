@@ -1,12 +1,6 @@
-Hallazgos:
-
-Al revisar el reporte no se visualizan completas las fotografías de los productos y se visualiza error al ver el carrito, aun así el flujo de compra finalizo como prueba satisfactoria.
-
-Se debería revisar el error presentado.
-
- 
-
 Conclusiones:
+
+* La adopción de herramientas de automatización como Serenity BDD ha mejorado significativamente la velocidad y la eficiencia en la ejecución de pruebas en comparación con métodos manuales.
 
 *Las pruebas pasaron al 100% demostrando que el flujo de compras fue satisfactorio hasta finalizar la compra con una duración de 11.562 segundos.
 
